@@ -7,24 +7,31 @@
 - Yarn
 
 ## Installation Instructions
-Install:
-    ```yarn bootstrap```
 
-This installs everything for the App as well as the Server, so please don't run ```npm install``` (unless you also want to run it from the `server` folder)
+Install:
+`yarn bootstrap`
+
+This installs everything for the App as well as the Server, so please don't run `npm install` (unless you also want to run it from the `server` folder)
 
 ## Running the App
+
 Run:
-    ```yarn start```
+`yarn start`
 
 ## Testing the App
-Run:
-    ```yarn test```
 
+Run:
+`yarn test`
 
 ## Overview
 
-Hi! Welcome to the Skedulo frontend tech project. You will find the details for your test [here](./src/INSTRUCTIONS.md). Once you're ready reach out to your hiring manager and they will share some github names to add as collaborators who will review your submission.
+Hi! Thank you for taking your time to review my answer. I would like to share some of my thinking about the test:
 
-Once you have completed the exercise it would be great to see a readme that contains some of your thinking while working through the test, constraints you worked within, some decisions and compromises you needed to make, and anything else you think would be interesting for the reviewers to know.
+- When I did the test, I didn't know whether I could change some code of the test a little or not but I decided to do it because I thought it is necessary in order to make sure variables have correct types and results are returned correctly.
+- I added the 2 following features to the test:
 
-Good luck! And if you have any questions, don't hesitate to contact your hiring manager.
+  - Triggering the search function once users stop typing an amount of time.
+  - A button to search all jobs.
+  - A helper function to format date.
+
+- If you have any question about my answer, please let me know!
