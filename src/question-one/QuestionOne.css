@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#searchBar {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 61px;
+  height: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-weight: 700;
+  width: 50px;
+  text-align: left;
+}
+
+td {
+  font-weight: normal;
+  width: 50px;
+}
+
+th:first-child,
+td:first-child {
+  width: 90px;
+}
